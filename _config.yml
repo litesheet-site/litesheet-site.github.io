@@ -1,5 +1,5 @@
 ---
-title: Your awesome title
+title: LiteSheet
 timezone: UTC
 collections:
   posts:
@@ -16,9 +16,11 @@ description: 'Write an awesome description for your new site here. You can edit 
 '
 baseurl: ''
 url: ''
-twitter_username: jekyllrb
-github_username: jekyll
 markdown: kramdown
-theme: minima
 plugins:
 - jekyll-feed
+
+copyright_name: LiteSheet
+highlighter: rouge
+permalink: pretty
+exclude: ["less","node_modules","Gruntfile.js","package.json"]
