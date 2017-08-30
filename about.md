@@ -1,7 +1,7 @@
 ---
-layout: page
-title: "About"
+title: About
 permalink: "/about/"
+layout: page
 ---
 
 <h3>THE LITESHEET MISSION</h3>

@@ -19,8 +19,11 @@ url: ''
 markdown: kramdown
 plugins:
 - jekyll-feed
-
 copyright_name: LiteSheet
 highlighter: rouge
 permalink: pretty
-exclude: ["less","node_modules","Gruntfile.js","package.json"]
+exclude:
+- less
+- node_modules
+- Gruntfile.js
+- package.json
