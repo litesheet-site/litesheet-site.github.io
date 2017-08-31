@@ -2,6 +2,7 @@
 title: 36in Brik Series
 date: 2017-08-31 02:17:00 Z
 series: Brik Series
+lumens: 75
 ---
 
 <p>
