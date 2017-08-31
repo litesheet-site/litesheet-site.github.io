@@ -1,7 +1,7 @@
 ---
 title: BBE2 Damp Location Brik
 date: 2017-08-31 02:14:00 Z
-Series: Brik Series
+series: Brik Series
 ---
 
 <p>
