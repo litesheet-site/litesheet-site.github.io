@@ -1,5 +1,6 @@
 ---
-layout: products
-permalink: "/products/"
 title: Products
+permalink: "/products/"
+layout: products
 ---
+
