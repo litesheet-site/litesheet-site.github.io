@@ -2,6 +2,7 @@
 title: BBE2 Damp Location Brik
 date: 2017-08-31 02:14:00 Z
 series: Brik Series
+lumens: 100
 ---
 
 <p>
