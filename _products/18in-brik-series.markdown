@@ -2,6 +2,7 @@
 title: 18in Brik Series
 date: 2017-08-31 02:17:00 Z
 series: Brik Series
+lumens: 50
 ---
 
 <p>
