@@ -2,6 +2,7 @@
 title: 42in Stik Series
 date: 2017-08-31 02:19:00 Z
 series: Stik Series
+lumens: 20
 ---
 
 <p>
