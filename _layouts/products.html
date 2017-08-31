@@ -1,0 +1,61 @@
+---
+layout: page
+---
+<div ng-controller="ProductComparisonController as productCompareCtrl">
+
+	<div>
+		<div class="col-sm-3">
+			<ul class="list-group">
+				{% for product in site.products %}
+					<li class="list-group-item">
+
+						<a ng-click="productCompareCtrl.selectProduct({{ forloop.index0 }})"
+						 href="javascript:;"
+						 product='{
+								      "title": "{{ product.title | escape }}",
+								      "content": "{{ product.content | escape }}",
+								      "lumens": "{{ product.lumens }}"
+						           }'>
+							{{ product.title | escape }}
+						</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+		<div class="col-sm-8">
+			<table ng-if="productCompareCtrl.firstProduct" class="table" ng-cloak>
+
+				<!--title-->
+				<tr>
+					<td ng-bind="productCompareCtrl.firstProduct.title" class="col-sm-3"></td>
+					<th class="col-sm-1">Product</th>
+					<td ng-if="productCompareCtrl.secondProduct"
+					    ng-bind="productCompareCtrl.secondProduct.title"
+					    class="col-sm-3">
+					</td>
+				</tr>
+
+				<!--lumens-->
+				<tr>
+					<td ng-bind="productCompareCtrl.firstProduct.lumens" class="col-sm-3"></td>
+					<th class="col-sm-1">Lumens</th>
+					<td ng-if="productCompareCtrl.secondProduct"
+					    ng-bind="productCompareCtrl.secondProduct.lumens"
+					    class="col-sm-3">
+					</td>
+				</tr>
+
+				<!--content-->
+				<tr>
+					<td ng-bind="productCompareCtrl.firstProduct.content" class="col-sm-3"></td>
+					<th class="col-sm-1">Description</th>
+					<td ng-if="productCompareCtrl.secondProduct"
+					    ng-bind="productCompareCtrl.secondProduct.content"
+					    class="col-sm-3">
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>

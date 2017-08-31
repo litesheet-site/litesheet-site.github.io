@@ -3,20 +3,22 @@ layout: page
 description: A Clean Blog Theme by Start Bootstrap
 ---
 
-<h1 class="page-heading">Posts</h1>
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-{% for post in site.posts %}
-  <div class="post-preview">
-    <a href="{{ post.url | relative_url }}">
-      <h2 class="post-title">
-        {{ post.title | escape }}
-      </h2>
-      <h3 class="post-subtitle">
-        Subtitle
-      </h3>
-    </a>
-    <p class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
-  </div>
+	<h1 class="page-heading">Posts</h1>
 
-  <hr>
-{% endfor %}
+	{% for post in site.posts %}
+		<div class="post-preview">
+			<a href="{{ post.url | relative_url }}">
+
+				<h2 class="post-title">{{ post.title | escape }} </h2>
+
+				<h3 class="post-subtitle">Subtitle </h3>
+			</a>
+			<p class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+		</div>
+
+		<hr>
+	{% endfor %}
+
+</div>
