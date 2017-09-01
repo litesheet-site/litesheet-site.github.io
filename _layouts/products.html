@@ -11,11 +11,7 @@ layout: page
 
 						<a ng-click="productCompareCtrl.selectProduct({{ forloop.index0 }})"
 						 href="javascript:;"
-						 product='{
-								      "title": "{{ product.title | escape }}",
-								      "content": "{{ product.content | escape }}",
-								      "lumens": "{{ product.lumens }}"
-						           }'>
+						 product='{{ product | jsonify }}'>
 							{{ product.title | escape }}
 						</a>
 					</li>
