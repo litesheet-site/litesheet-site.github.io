@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+<h1>Team</h1>
+<div>{{ content }}</div>
+
+<div class="row">
+
+	{% for team-member in page.team-members %}
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<div class="caption">
+					<h3>{{ team-member.name | escape }}</h3>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>

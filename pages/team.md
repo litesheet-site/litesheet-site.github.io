@@ -1,6 +1,7 @@
 ---
 title: Team
-date: 2017-09-29 22:15:00 Z
+permalink: "/team/"
+layout: team
 team-members:
 - name: Roger Whyte
 - name: Todd Hodrinsky
