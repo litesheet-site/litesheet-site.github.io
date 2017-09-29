@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Us
 permalink: "/about/"
 our-philosophy:
 - title: Mission Led
