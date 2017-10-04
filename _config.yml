@@ -2,6 +2,9 @@
 title: LiteSheet
 timezone: UTC
 collections:
+  companies:
+    title: Companies
+    output: true
   posts:
     title: Posts
     output: true
