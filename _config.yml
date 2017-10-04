@@ -8,9 +8,6 @@ collections:
   products:
     title: Products
     output: true
-  sub-pages:
-    title: Sub-pages
-    output: true
   uploads:
     title: Uploads
     output: true
