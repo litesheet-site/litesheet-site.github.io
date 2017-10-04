@@ -5,6 +5,4 @@ series: Brik Series
 lumens: 75
 ---
 
-<p>
 The 36″ Brik features our patented BriteCor™ technology. No DC power source is required. The Brik produces up to 131 lumens per watt.  LiteSheet’s patented AC direct LED lighting engine is the next generation of lighting technology.
-</p>
