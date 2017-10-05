@@ -2,17 +2,20 @@
 layout: page
 ---
 
-<div ng-controller="ProductComparisonController as productCompareCtrl">
+<div ng-controller="ItemCompareController as itemCompareCtrl">
 
 	<div>
 		<div class="col-sm-3">
+
+			<p>Select up to 3 products</p>
+
 			<ul class="list-group">
 				{% for product in site.products %}
 					<li class="list-group-item">
 
-						<a ng-click="productCompareCtrl.selectProduct({{ forloop.index0 }})"
+						<a ng-click="itemCompareCtrl.selectItem({{ forloop.index0 }})"
 						   href="javascript:;"
-						   product='{{ product | jsonify }}'>
+						   item='{{ product | jsonify }}'>
 							{{ product.title | escape }}
 						</a>
 					</li>
@@ -21,16 +24,15 @@ layout: page
 		</div>
 
 		<div class="col-sm-8">
-			<table ng-if="productCompareCtrl.firstProduct" class="table" ng-cloak>
+			<table ng-show="itemCompareCtrl.selectedItems.length > 0" class="table" ng-cloak>
 
 				{% for field in page.comparison-fields %}
 					<tr>
-						<td ng-if="productCompareCtrl.secondProduct"
-						    ng-bind="productCompareCtrl.secondProduct['{{ field.field }}']"
-						    class="col-sm-3">
+						<td ng-repeat="item in itemCompareCtrl.selectedItems" class="col-sm-3">
+
+							<div>{{ field.display }}</div>
+							<div ng-bind="item['{{ field.field }}']"></div>
 						</td>
-						<th class="col-sm-1">{{ field.display }}</th>
-						<td ng-bind="productCompareCtrl.firstProduct['{{ field.field }}']" class="col-sm-3"></td>
 					</tr>
 				{% endfor %}
 			</table>
