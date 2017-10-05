@@ -17,8 +17,6 @@ philosophy:
   content: We put our customer first.  You are our partner and first priority.  We
     offer a standard 15-year warranty to prove that we are committed to our products
     and stand by its quality.
-- title: 
-  content: 
 process: BRILLIANCE THROUGH SIMPLICITY is our culture. It is how we design our products,
   manage customer service and communicate to our consumer. It is the common thread
   through everything that we do. We believe that great products don’t have to be complicated,
