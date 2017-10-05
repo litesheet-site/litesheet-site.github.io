@@ -5,10 +5,9 @@ mission: To deliver innovative, efficient, sustainable, cost-effective lighting 
   to our customers. We accomplish this mission with integrity, honesty, respect and
   commitment to excellence in all that we do.
 philosophy:
-- title: Mission Led
+- title: Led by Our Mission
   content: LiteSheet products are patented, DLC and ETL listed.  Their patented technology
-    is 75% more efficient than competitive products. We also offer an industry leading
-    warranty policy.
+    is 75% more efficient than competitive products with an industry leading warranty.
 - title: American Manufactured
   content: Based in Forest, VA, LiteSheet is manufactured in the USA and has been
     tested for the highest elimination of Mean Time Between Failure (MTBF) against
@@ -16,7 +15,7 @@ philosophy:
 - title: Servant Leadership
   content: We put our customer first.  You are our partner and first priority.  We
     offer a standard 15-year warranty to prove that we are committed to our products
-    and stand by its quality.
+    and quality.
 process: BRILLIANCE THROUGH SIMPLICITY is our culture. It is how we design our products,
   manage customer service and communicate to our consumer. It is the common thread
   through everything that we do. We believe that great products don’t have to be complicated,
