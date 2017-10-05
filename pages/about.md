@@ -6,8 +6,16 @@ mission: To deliver innovative, efficient, sustainable, cost-effective lighting 
   commitment to excellence in all that we do.
 philosophy:
 - title: Mission Led
-  content: LiteSheet products are patented, DLC and ETL listed.  Their patented technology
-    is 75% more efficient than competitive products.
+  content: |-
+    LiteSheet products are patented, DLC and ETL listed.  Their patented technology is 75% more efficient than competitive products.
+
+    With an industry leading warranty policy, LiteSheet products are built to last.
+- title: Product Oriented
+  content: Our products have been certified to UL standards, DLC approved and ETL
+    listed for efficacy.  Our portfolio has an estimated lifetime of greater than
+    450,000 hours (50 years) of continuous use and runs at 140 lumens per watt.  This
+    reduces annual power costs by more than 50% with no replacement or maintenance
+    costs.
 - title: American Manufactured
   content: Based in Forest, VA, LiteSheet is manufactured in the USA and has been
     tested for the highest elimination of Mean Time Between Failure (MTBF) against
@@ -16,7 +24,7 @@ philosophy:
   content: We put our customer first.  You are our partner and first priority.  We
     offer a standard 15-year warranty to prove that we are committed to our products
     and stand by its quality.
-process: Brilliance through simplicity is our culture. It is how we design our products,
+process: BRILLIANCE THROUGH SIMPLICITY is our culture. It is how we design our products,
   manage customer service and communicate to our consumer. It is the common thread
   through everything that we do. We believe that great products don’t have to be complicated,
   which is why we removed the driver from our light engine and created BriteCor. By
