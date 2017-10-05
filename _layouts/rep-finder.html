@@ -4,20 +4,45 @@ layout: page
 
 <h1>Rep Finder</h1>
 
-<div id="map"></div>
-<script>
-	function initMap() {
-		var uluru = {lat: -25.363, lng: 131.044};
-		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
-			center: uluru
-		});
-		var marker = new google.maps.Marker({
-			position: uluru,
-			map: map
-		});
-	}
+<div class="row">
+	<table class="table" id="selectedLocation" style="display: none;">
+		<tr>
+			<th>Name</th>
+			<td id="selectedName"></td>
+		</tr>
+		<tr>
+			<th>Email</th>
+			<td id="selectedEmail"></td>
+		</tr>
+		<tr>
+			<th>Phone</th>
+			<td id="selectedPhone"></td>
+		</tr>
+		<tr>
+			<th>Web Address</th>
+			<td id="selectedWebAddress"></td>
+		</tr>
+	</table>
+</div>
+
+<div class="row">
+	<div id="map"></div>
+</div>
+
+
+{% for location in page.locations %}
+	<input type="hidden" data-location
+	       data-name="{{ location.name }}"
+	       data-latitude="{{ location.latitude }}"
+	       data-longitude="{{ location.longitude }}"
+	       data-email="{{ location.email }}"
+	       data-phone="{{ location.phone }}"
+	       data-webaddress="{{ location.web-address }}"
+	>
+{% endfor %}
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKJimc_ZVgMZX3tGQpzCiVW3s9W3Kbc0&callback=initMap"
+        async defer>
 </script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-</script>
+
+<script src="{{ "/js/rep-finder.js " | prepend: site.baseurl }}" async defer></script>
