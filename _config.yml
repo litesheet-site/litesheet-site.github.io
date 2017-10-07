@@ -5,6 +5,9 @@ collections:
   companies:
     title: Companies
     output: true
+  news:
+    title: News
+    output: true
   posts:
     title: Posts
     output: true
