@@ -22,6 +22,6 @@ As a result of LiteSheet’s extreme growth in the past 6 months, the company ha
 
 <a href="https://www.facebook.com/Litesheet">https://www.facebook.com/Litesheet</a>
 
-https://twitter.com/LiteSheet
+<a href="https://twitter.com/LiteSheet">https://twitter.com/LiteSheet</a>
 
-https://www.linkedin.com/company/litesheet-solutions
+<a href="https://www.linkedin.com/company/litesheet-solutions">https://www.linkedin.com/company/litesheet-solutions</a>
