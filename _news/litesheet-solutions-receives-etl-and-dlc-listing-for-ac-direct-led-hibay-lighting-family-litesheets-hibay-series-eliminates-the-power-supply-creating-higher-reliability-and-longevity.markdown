@@ -9,7 +9,7 @@ tags:
 - HiBay
 - High Bay
 - LED
-position: 0
+position: 1
 author: Rochelle Webb
 location: Bedford, VA
 ---
