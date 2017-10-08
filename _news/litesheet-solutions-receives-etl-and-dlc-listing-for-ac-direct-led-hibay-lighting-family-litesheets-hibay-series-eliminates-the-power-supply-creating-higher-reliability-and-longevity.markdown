@@ -3,6 +3,12 @@ title: LiteSheet Solutions receives ETL and DLC listing for AC Direct LED HiBay 
   family – LiteSheet’s Hibay Series eliminates the power supply, creating higher reliability
   and longevity
 date: 2017-11-28 00:00:00 Z
+tags:
+- AC Direct
+- DLC
+- HiBay
+- High Bay
+- LED
 author: Rochelle Webb
 ---
 
