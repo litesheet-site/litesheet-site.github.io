@@ -1,6 +1,6 @@
 ---
 title: LiteSheet Solutions elevates product reliability expectations with its ETL
-  AND DesignLights Consortium (‘DLC’) listed BriteCor VaporTight fixture
+  and DesignLights Consortium (‘DLC’) listed BriteCor VaporTight fixture
 date: 2017-01-19 00:00:00 Z
 author: Rochelle Webb
 location: Forest, VA
