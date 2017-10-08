@@ -36,3 +36,10 @@ exclude:
 - node_modules
 - Gruntfile.js
 - package.json
+
+defaults:
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "news-article"

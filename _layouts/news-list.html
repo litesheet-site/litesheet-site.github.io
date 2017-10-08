@@ -1,0 +1,23 @@
+---
+layout: page
+---
+
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+	<h1 class="page-heading">News</h1>
+
+	{% for article in site.news %}
+		<div class="post-preview">
+			<a href="{{ article.url | relative_url }}">
+
+				<h2 class="post-title">{{ article.title | escape }} </h2>
+
+				<h3 class="post-subtitle">{{ article.location | escape }}</h3>
+			</a>
+			<p class="post-meta">Posted on {{ article.date | date: "%B %-d, %Y" }} by {{ article.author | escape }}</p>
+		</div>
+
+		<hr>
+	{% endfor %}
+
+</div>
