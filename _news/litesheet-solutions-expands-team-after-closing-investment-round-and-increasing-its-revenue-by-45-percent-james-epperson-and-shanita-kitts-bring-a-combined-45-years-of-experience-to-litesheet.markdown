@@ -28,8 +28,9 @@ Shanita Kitts joins LiteSheet as a Manufacturing Office Manager with 15 years of
 <a href="https://www.linkedin.com/company/litesheet-solutions">https://www.linkedin.com/company/litesheet-solutions</a>
 
 <em>
-<strong>About LiteSheet Solutions, LLC,</strong> <a href="www.litesheet.com">www.litesheet.com</a>
+<strong>About LiteSheet Solutions, LLC,</strong> <a href="http://www.litesheet.com">www.litesheet.com</a>
 </em>
+
 <em>
 LiteSheet Solutions, LLC, is the Adaptive AC LED Technology Company that develops and commercializes products for the commercial and industrial lighting market. The founders have combined their extensive knowledge of lighting technologies and manufacturing processes to create highly efficient lighting with reduced production costs. The result is the most economical, environmentally friendly, and sustainable LED lighting available.
 </em>
