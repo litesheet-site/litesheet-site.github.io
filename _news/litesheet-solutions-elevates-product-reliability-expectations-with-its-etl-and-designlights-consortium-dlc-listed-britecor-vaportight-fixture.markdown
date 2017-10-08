@@ -19,3 +19,9 @@ LiteSheet’s engineering team challenged standard specifications to ensure the 
 The BVT continues to remain on pace with the rest of LiteSheet’s portfolio by offering constant lifetime output of over 120 lumens/watts. LiteSheet’s CEO, Roger Whyte, states that “this is only the beginning of what the marketplace can expect to see from LiteSheet as it relates to LED innovation and our dynamic product roadmap that we have planned for first half 2017.” Whyte has gone on record to say that, “unlike our competitors, we are offering first looks to our upcoming confidential product releases to any customer that contacts our team via sales@litesheet.com.”
 
 As a result of LiteSheet’s extreme growth in the past 6 months, the company has recently moved into its new corporate headquarters and manufacturing facility located in Forest, Virginia. All LiteSheet products are available with warranties for up to 15 years backed by insurer Lloyds of London, fully patented and are 100% proudly manufactured in the USA.
+
+https://www.facebook.com/Litesheet
+
+https://twitter.com/LiteSheet
+
+https://www.linkedin.com/company/litesheet-solutions
