@@ -20,7 +20,7 @@ The BVT continues to remain on pace with the rest of LiteSheet’s portfolio by 
 
 As a result of LiteSheet’s extreme growth in the past 6 months, the company has recently moved into its new corporate headquarters and manufacturing facility located in Forest, Virginia. All LiteSheet products are available with warranties for up to 15 years backed by insurer Lloyds of London, fully patented and are 100% proudly manufactured in the USA.
 
-https://www.facebook.com/Litesheet
+<a href="https://www.facebook.com/Litesheet">https://www.facebook.com/Litesheet</a>
 
 https://twitter.com/LiteSheet
 
