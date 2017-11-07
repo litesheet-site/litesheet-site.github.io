@@ -1,6 +1,7 @@
 ---
 title: FAQ
-date: 2017-11-07 01:14:00 Z
+permalink: "/faq"
+layout: faq
 questions:
 - question: Will your LED troffer kit work with existing dimming systems? Off/on &
     0-10v?

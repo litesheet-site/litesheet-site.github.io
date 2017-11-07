@@ -1,0 +1,14 @@
+---
+layout: page
+---
+
+<table class="table">
+	{% for question in page.questions %}
+		<tr>
+			<th class="faq-question">{{question.question}}</th>
+		</tr>
+		<tr>
+			<td class="faq-answer">{{question.answer}}</td>
+		</tr>
+	{% endfor %}
+</table>
