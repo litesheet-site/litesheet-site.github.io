@@ -1,11 +1,32 @@
+/**
+ * @typedef {Coordinates} Coordinates
+ * @property {number} lat
+ * @property {number} lng
+ */
+
+/**
+ * @typedef {RepLocation} RepLocation
+ * @property {string} name
+ * @property {Coordinates} position
+ * @property {string} email
+ * @property {string} phone
+ * @property {string} state
+ * @property {string} webAddress
+ */
+
 function RepFinder() {
 
 	this.map = null;
+
+	/**
+	 * @type Array<RepLocation>
+	 */
 	this.locations = [];
 
 	this.createMap();
 	this.buildLocations();
 	this.createMarkers();
+	this.initStateDropdownFilter();
 }
 
 RepFinder.prototype.createMap = function() {
@@ -38,10 +59,14 @@ RepFinder.prototype.buildLocations = function() {
 		var latitude = parseFloat(attributes["data-latitude"].value);
 		var longitude = parseFloat(attributes["data-longitude"].value);
 
+		/**
+		 * @type RepLocation
+		 */
 		var location = {
 			name: attributes["data-name"].value,
 			email: attributes["data-email"].value,
 			phone: attributes["data-phone"].value,
+			state: attributes["data-state"].value,
 			webAddress: attributes["data-webaddress"].value,
 			position: {
 				lat: latitude,
@@ -67,8 +92,15 @@ RepFinder.prototype.createMarkers = function() {
 
 		marker.addListener('click', function(clickedPosition) {
 
+			/**
+			 * @type RepLocation
+			 */
 			var clickedLocation = this.findLocation(clickedPosition);
-			this.setSelectedLocation(clickedLocation);
+
+			this.clearDisplayedLocations();
+			this.addLocationToTable(clickedLocation);
+
+			$("#state-dropdown").val("");
 
 		}.bind(this));
 	}
@@ -94,14 +126,61 @@ RepFinder.prototype.findLocation = function(clickedPosition) {
 	return null;
 };
 
-RepFinder.prototype.setSelectedLocation = function(location) {
+RepFinder.prototype.initStateDropdownFilter = function () {
 
-	document.getElementById("selectedName").textContent = location.name;
-	document.getElementById("selectedEmail").textContent = location.email;
-	document.getElementById("selectedPhone").textContent = location.phone;
-	document.getElementById("selectedWebAddress").textContent = location.webAddress;
+	$("#state-dropdown").change(function () {
 
-	document.getElementById("selectedLocation").style.display = "table";
+		/**
+		 * @type {string}
+		 */
+		var selectedState = $("#state-dropdown").val();
+
+		this.clearDisplayedLocations();
+
+		for (var i = 0; i < this.locations.length; i++) {
+
+			var location = this.locations[i];
+
+			if (location.state === selectedState) {
+
+				this.addLocationToTable(location);
+			}
+		}
+
+	}.bind(this));
+};
+
+/**
+ * @param {RepLocation} location
+ */
+RepFinder.prototype.addLocationToTable = function (location) {
+
+	var locationRow =
+	   '<div class="col-sm-6 col-md-4 col-lg-4">'
+	 +    '<table class="table table-condensed">'
+	 +       '<tr>'
+	 +          '<th>Name</th>'
+	 +          '<td>' + location.name + '</td>'
+	 +       '</tr>'
+	 +       '<tr>'
+	 +          '<th>Email</th>'
+	 +          '<td>' + location.email + '</td>'
+	 +       '</tr>'
+	 +          '<th>Phone</th>'
+	 +          '<td>' + location.phone + '</td>'
+	 +       '</tr>'
+	 +       '<tr>'
+	 +          '<th>Web Address</th>'
+	 +          '<td>' + location.webAddress + '</td>'
+	 +       '</tr>'
+	 +    '</table>'
+	 + '</div>';
+
+	$('#displayed-locations').append(locationRow);
+};
+
+RepFinder.prototype.clearDisplayedLocations = function () {
+	$("#displayed-locations").empty();
 };
 
 function initMap() {

@@ -2,34 +2,28 @@
 layout: page
 ---
 
-<h1>Rep Finder</h1>
-
+<!--state dropdown-->
 <div class="row">
-	<table class="table" id="selectedLocation" style="display: none;">
-		<tr>
-			<th>Name</th>
-			<td id="selectedName"></td>
-		</tr>
-		<tr>
-			<th>Email</th>
-			<td id="selectedEmail"></td>
-		</tr>
-		<tr>
-			<th>Phone</th>
-			<td id="selectedPhone"></td>
-		</tr>
-		<tr>
-			<th>Web Address</th>
-			<td id="selectedWebAddress"></td>
-		</tr>
-	</table>
+	<div class="form-group col-sm-5 col-md-4 col-lg-3">
+		<label for="state-dropdown">State</label>
+		<select class="form-control" id="state-dropdown">
+			<option value="">---</option>
+
+			{% for state in page.states %}
+				<option value="{{ state }}">{{ state }}</option>
+			{% endfor %}
+		</select>
+	</div>
 </div>
+
+<!--location info-->
+<div class="row" id="displayed-locations"></div>
 
 <div class="row">
 	<div id="map"></div>
 </div>
 
-
+<!--map-->
 {% for location in page.locations %}
 	<input type="hidden" data-location
 	       data-name="{{ location.name }}"
@@ -37,10 +31,12 @@ layout: page
 	       data-longitude="{{ location.longitude }}"
 	       data-email="{{ location.email }}"
 	       data-phone="{{ location.phone }}"
+	       data-state="{{ location.state }}"
 	       data-webaddress="{{ location.web-address }}"
 	>
 {% endfor %}
 
+<!--javascript-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKJimc_ZVgMZX3tGQpzCiVW3s9W3Kbc0&callback=initMap"
         async defer>
 </script>
