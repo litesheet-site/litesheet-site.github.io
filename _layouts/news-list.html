@@ -5,14 +5,34 @@ layout: page
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 	{% for article in site.news reversed %}
-		<div class="post-preview">
-			<a href="{{ article.url | relative_url }}">
+		<div class="row">
 
-				<h2 class="post-title">{{ article.title | escape }} </h2>
+			<!--image-->
 
-				<h3 class="post-subtitle">{{ article.location | escape }}</h3>
-			</a>
-			<p class="post-meta">Posted on {{ article.date | date: "%B %-d, %Y" }} by {{ article.author | escape }}</p>
+			<div class="post-preview">
+
+				<div class="post-preview__left pull-left">
+
+					{% if article.picture %}
+						<img src="{{ article.picture }}" class="img-thumbnail img-fluid">
+					{% endif %}
+				</div>
+
+				<div class="post-preview__right pull-right">
+					<a href="{{ article.url | relative_url }}">
+
+						<!--title-->
+						<h2 class="post-title">{{ article.title | escape }} </h2>
+
+						<!--subtitle-->
+						<!--<h3 class="post-subtitle">{{ article.location | escape }}</h3>-->
+					</a>
+
+					<!--date and author-->
+					<p class="post-meta">Posted on {{ article.date | date: "%B %-d, %Y" }} by {{ article.author | escape }}</p>
+				</div>
+
+			</div>
 		</div>
 
 		<hr>
