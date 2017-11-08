@@ -5,7 +5,7 @@ layout: page
 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 	{% for question in page.questions %}
-		<h2>{{ question.question }}</h2>
+		<h3>{{ question.question }}</h3>
 		<p class="faq-answer">{{ question.answer | escape }}</p>
 	{% endfor %}
 </div>
