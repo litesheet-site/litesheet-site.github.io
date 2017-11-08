@@ -37,8 +37,8 @@ layout: page
 {% endfor %}
 
 <!--javascript-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKJimc_ZVgMZX3tGQpzCiVW3s9W3Kbc0&callback=initMap"
-        async defer>
-</script>
+<script src="{{ "/js/rep-finder.js " | prepend: site.baseurl }}" defer></script>
 
-<script src="{{ "/js/rep-finder.js " | prepend: site.baseurl }}" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFKJimc_ZVgMZX3tGQpzCiVW3s9W3Kbc0&callback=initMap"
+        defer>
+</script>
