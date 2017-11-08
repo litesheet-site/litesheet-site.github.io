@@ -2,4 +2,37 @@
 layout: page
 ---
 
-<a href="/news-list">Click here to see more stories</a>
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+	<div class="row">
+
+		{% for article in site.news reversed %}
+
+			{% if article.topstory %}
+				<div class="col-sm-12 col-md-6 col-lg-4">
+					<div class="thumbnail news-topstory">
+
+						<a href="{{ article.url | relative_url }}">
+
+							<!--image-->
+							{% if article.picture %}
+								<img src="{{ article.picture }}">
+							{% endif %}
+
+							<div class="caption news-topstory__caption">
+								<h3>{{ article.title }}</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+
+			{% endif %}
+		{% endfor %}
+	</div>
+
+	<!--link to all-->
+	<div class="row">
+		<a href="/news-list">Click here to see more stories</a>
+	</div>
+
+</div>
