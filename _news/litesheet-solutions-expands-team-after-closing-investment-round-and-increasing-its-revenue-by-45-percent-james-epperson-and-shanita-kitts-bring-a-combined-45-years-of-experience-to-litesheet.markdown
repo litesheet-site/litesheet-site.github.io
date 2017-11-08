@@ -11,6 +11,7 @@ tags:
 - roger whyte
 - shanita kitts
 position: 2
+topstory: true
 author: Rochelle Webb
 location: Bedford, VA
 ---
