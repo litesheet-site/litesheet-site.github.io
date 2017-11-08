@@ -19,7 +19,7 @@ locations:
 - name: Jesse Carmichael
   state: California
   latitude: 33.0522
-  longitude: -119.2437
+  longitude: -117.2437
   email: jesse.carmichael@litesheet.com
   phone: "(949) 555-1818"
   web-address: http://www.litesheet.com
