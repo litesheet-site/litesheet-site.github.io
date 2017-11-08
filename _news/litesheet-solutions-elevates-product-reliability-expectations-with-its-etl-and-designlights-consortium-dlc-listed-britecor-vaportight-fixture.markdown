@@ -16,6 +16,7 @@ tags:
 - UL approved
 - VaporTight
 position: 0
+topstory: true
 author: Rochelle Webb
 location: Forest, VA
 picture: "/uploads/News.jpg"
