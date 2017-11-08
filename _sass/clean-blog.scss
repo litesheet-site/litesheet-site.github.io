@@ -37,13 +37,6 @@ a {
 	}
 }
 
-a img {
-	&:hover,
-	&:focus {
-		cursor: zoom-in;
-	}
-}
-
 blockquote {
 	color: $gray;
 	font-style: italic;
@@ -80,10 +73,10 @@ hr.small {
 		}
 	}
 	@media only screen and (min-width: 768px) {
-		background: transparent;
+		//background: transparent;
 		border-bottom: 1px solid transparent;
 		.navbar-brand {
-			color: white;
+			color: $gray-dark;
 			padding: 20px;
 			&:hover,
 			&:focus {
@@ -93,11 +86,11 @@ hr.small {
 		.nav {
 			li {
 				a {
-					color: white;
+					color: $black;
 					padding: 20px;
 					&:hover,
 					&:focus {
-						color: $white-faded;
+						color: $brand-primary;
 					}
 				}
 			}
@@ -120,7 +113,7 @@ hr.small {
 			position: fixed;
 			top: -61px;
 			background-color: fade(white, 90%);
-			//border-bottom: 1px solid darken(white, 5%);
+			border-bottom: 1px solid darken(white, 5%);
 			-webkit-transition: -webkit-transform 0.3s;
 			-moz-transition: -moz-transform 0.3s;
 			transition: transform 0.3s;
