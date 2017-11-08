@@ -10,6 +10,7 @@ tags:
 - High Bay
 - LED
 position: 1
+topstory: true
 author: Rochelle Webb
 location: Bedford, VA
 ---
