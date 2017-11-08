@@ -9,14 +9,21 @@ h2.faq-header {
 .faq___question-container {
 }
 
+.faq__question__link:focus {
+  color: $gray-dark;
+  text-decoration: none;
+}
+
 .faq__question {
   font-size: 20px;
 }
 
 .faq__answer {
-  margin-bottom: 12px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 hr.faq__divider {
-  border-top: 1px solid $gray-dark;
+  border-top: 1px solid $gray-light;
 }
