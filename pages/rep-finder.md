@@ -2,20 +2,27 @@
 title: Rep Finder
 permalink: "/rep-finder/"
 locations:
-- name: Test NewYork
+- name: Kevin Smith
   state: New York
   latitude: 40.7128
   longitude: -74.0059
-  email: test-newyork@test.com
+  email: kevin.smith@litesheet.com
   phone: "(123) 456-7890"
-  web-address: http://test.com
-- name: Test LosAngeles
+  web-address: http://www.litesheet.com/kevin
+- name: James Cameron
   state: California
   latitude: 34.0522
   longitude: -118.2437
-  email: test-losangeles@test.com
+  email: james.cameron@litesheet.com
   phone: "(123) 456-7890"
-  web-address: http://test.com
+  web-address: http://www.litesheet.com
+- name: Jesse Carmichael
+  state: California
+  latitude: 33.0522
+  longitude: -119.2437
+  email: jesse.carmichael@litesheet.com
+  phone: "(949) 555-1818"
+  web-address: http://www.litesheet.com
 states:
 - Alabama
 - Alaska
