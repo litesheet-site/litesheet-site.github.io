@@ -13,6 +13,7 @@ position: 1
 topstory: true
 author: Rochelle Webb
 location: Bedford, VA
+photo: "/uploads/BHBC-2x2-Iso.jpg"
 ---
 
 LiteSheet Solutions (‘LiteSheet’) newly released Hibay Series (‘BHBC’) is curved in its design and embedded with patented BriteCor Technology. This AC direct LED fixture requires no power supply and utilizes 50% less energy than fluorescent or traditional HID high bay lighting. LiteSheet has become the leader and authority for innovative light design proven by having just received TechEDGE’s 2016 Innovator of the Year Award.
