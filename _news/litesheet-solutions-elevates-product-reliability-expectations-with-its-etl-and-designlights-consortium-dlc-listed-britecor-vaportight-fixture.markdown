@@ -19,7 +19,7 @@ position: 0
 topstory: true
 author: Rochelle Webb
 location: Forest, VA
-picture: "/uploads/News.jpg"
+picture: "/uploads/4ft-BVT-Iso.jpg"
 ---
 
 LiteSheet Solutions (‘LiteSheet’) has introduced the industry’s latest darling with the BriteCor VaporTight (‘BVT’) premium grade fixture. This gasketed fixture sits at the top of leaderboard for its energy saving and high performance abilities. LiteSheet continues to push industry standards in regard to sustainability and reducing the world’s carbon footprint. The VaporTight series is fully patented and equipped with LiteSheet’s AC Direct BriteCor technology that eliminates the failure prone driver found in conventional LED lighting.
