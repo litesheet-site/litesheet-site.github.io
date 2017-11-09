@@ -1,5 +1,5 @@
 ---
-title: LITESHEET SOLUTIONS NAMED INNOVATOR OF THE YEAR AT TECHEDGE 2016
+title: LiteSheet Solutions Named  Innovator of the Year at TechEdge 2016
 date: 2017-11-09 21:49:00 Z
 topstory: true
 author: James Cameron
