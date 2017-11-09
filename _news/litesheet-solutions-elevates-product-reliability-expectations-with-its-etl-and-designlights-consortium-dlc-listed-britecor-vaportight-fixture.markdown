@@ -16,7 +16,7 @@ tags:
 - UL approved
 - VaporTight
 position: 0
-topstory: true
+topstory: false
 author: Rochelle Webb
 location: Forest, VA
 picture: "/uploads/4ft-BVT-Iso.jpg"
