@@ -14,6 +14,7 @@ position: 2
 topstory: true
 author: Rochelle Webb
 location: Bedford, VA
+picture: "/uploads/News.jpg"
 ---
 
 LiteSheet Solutions (‘LiteSheet’) continues to surpass its corporate milestones ahead of plan and in order to keep up with its growth trajectory have recently on-boarded James Epperson and Shanita Kitts. Filling these two positions is a signal to the marketplace that the company is gearing up for a very strong 2017 sales and development cycle.
