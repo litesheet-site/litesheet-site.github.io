@@ -4,13 +4,10 @@ layout: page
 
 <!--state dropdown-->
 <div class="row">
-	<h2>Search for LiteSheet reps by state</h2>
-</div>
-
-<div class="row">
 	<div class="form-group col-sm-5 col-md-4 col-lg-3">
+		<label for="state-dropdown">State</label>
 		<select class="form-control" id="state-dropdown">
-			<option value="">Select a state</option>
+			<option value="">---</option>
 
 			{% for state in page.states %}
 				<option value="{{ state }}">{{ state }}</option>
@@ -22,9 +19,6 @@ layout: page
 <!--location info-->
 <div class="row" id="displayed-locations"></div>
 
-<div class="row">
-	<h2>Search for LiteSheet reps on the map</h2>
-</div>
 <div class="row">
 	<div id="map"></div>
 </div>
