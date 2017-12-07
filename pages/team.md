@@ -17,18 +17,26 @@ team-members:
 - name: Doug Lane
   photo: 
   role: VP Sales – Northeast Region
+  phone: 
+  email: 
 - name: Phil Heil
   photo: 
   role: CIO
 - name: Ken Koos
   photo: 
   role: National Director – Inside Sales and Business Development
+  phone: 
+  email: 
 - name: Ted McVickers
   photo: 
   role: VP Sales – Southeast Region
+  phone: 
+  email: 
 - name: Doug Schmidt
   photo: 
   role: VP Sales – West Region
+  phone: 
+  email: 
 layout: team
 ---
 
