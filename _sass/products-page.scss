@@ -1,3 +1,16 @@
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }
+
+div.product-category__caption.caption, div.product__caption.caption {
+  font-style: normal;
+}
+
+.product__photos__img-container {
+  margin-top: 20px;
+}
+
+.product__hero-photo__img-container {
+  margin: auto;
+  float: none;
+}

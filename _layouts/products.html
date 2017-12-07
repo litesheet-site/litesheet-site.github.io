@@ -11,7 +11,7 @@ layout: page
 	{% for category in site.product-categories %}
 		<div class="col-sm-6 col-md-4">
 			<div class="thumbnail">
-				<div class="caption">
+				<div class="caption product-category__caption">
 					<a href="{{ category.url | relative_url }}">
 						<h3 class="text-primary">{{ category.title | escape }}</h3>
 					</a>

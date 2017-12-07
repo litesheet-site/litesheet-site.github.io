@@ -35,6 +35,7 @@ defaults:
     path: ''
     type: products
   values:
+    layout: product
     family: 
     hero_photo: 
     photos: []
