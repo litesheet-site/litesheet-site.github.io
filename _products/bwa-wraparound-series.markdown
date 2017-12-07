@@ -8,6 +8,7 @@ tags:
 - Retail
 - Healthcare
 - Education
+- BWA
 family: BWA
 hero_photo: "/uploads/DSC_6430.JPG"
 photos:

@@ -9,6 +9,7 @@ tags:
 - Outdoor
 - Parking Garage
 - Factory
+- BVT
 family: BVT
 hero_photo: "/uploads/DSC_6401.JPG"
 photos:
