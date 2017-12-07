@@ -5,6 +5,7 @@ tags:
 - Education
 - Warehouse
 - Factory
+- BHBC
 family: BHBC
 hero_photo: "/uploads/DSC_6421.JPG"
 photos:
