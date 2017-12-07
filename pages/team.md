@@ -3,14 +3,32 @@ title: Team
 permalink: "/team/"
 team-members:
 - name: Roger Whyte
+  photo: 
+  role: CEO
 - name: Todd Hodrinsky
+  photo: 
+  role: Chief Innovation Officer
 - name: Wayne Steinhoff
+  photo: 
+  role: Chief Sales and Marketing Officer
 - name: Debbie Cebry
+  photo: 
+  role: Director of Manufacturing Operations
 - name: Doug Lane
+  photo: 
+  role: VP Sales – Northeast Region
 - name: Phil Heil
+  photo: 
+  role: CIO
 - name: Ken Koos
+  photo: 
+  role: National Director – Inside Sales and Business Development
 - name: Ted McVickers
-- name: Tara Brown
+  photo: 
+  role: VP Sales – Southeast Region
+- name: Doug Schmidt
+  photo: 
+  role: VP Sales – West Region
 layout: team
 ---
 
