@@ -11,6 +11,9 @@ collections:
   posts:
     title: Posts
     output: true
+  product-categories:
+    title: Product Categories
+    output: true
   products:
     title: Products
     output: true
