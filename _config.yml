@@ -31,7 +31,7 @@ defaults:
     type: products
   values:
     family:
-    heroshot:
+    hero_photo:
     photos: []
 
 
