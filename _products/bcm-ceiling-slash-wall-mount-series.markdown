@@ -5,6 +5,9 @@ tags:
 - BCM
 - Office
 - Parking Garage
+- Education
+- Healthcare
+- Retail
 family: BCM
 hero_photo: "/uploads/DSC_6456.JPG"
 photos:
