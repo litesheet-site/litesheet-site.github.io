@@ -28,6 +28,11 @@ defaults:
     layout: news-article
 - scope:
     path: ''
+    type: product-categories
+  values:
+    layout: product-category
+- scope:
+    path: ''
     type: products
   values:
     family: 

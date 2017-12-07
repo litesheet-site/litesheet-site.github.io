@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<h1>{{page.title | escape}}</h1>
+
+<div class="row">
+
+	{% assign matching-products = site.products | where_exp:"product", "product.tags contains page.title" %}
+
+	{% for product in matching-products %}
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<div class="caption">
+					<h3>{{ product.title | escape }}</h3>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+
+</div>

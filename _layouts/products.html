@@ -2,16 +2,21 @@
 layout: page
 ---
 
-<h1>Product Comparitives</h1>
+<h1>Product Categories</h1>
 
 <div>{{content}}</div>
 
-<div>
-	<a href="/compare-by-product">
-		<h2>By Product</h2>
-	</a>
+<div class="row">
 
-	<a href="/compare-by-company">
-		<h2>By Company</h2>
-	</a>
+	{% for category in site.product-categories %}
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<div class="caption">
+					<a href="{{ category.url | relative_url }}">
+						<h3 class="text-primary">{{ category.title | escape }}</h3>
+					</a>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
 </div>
