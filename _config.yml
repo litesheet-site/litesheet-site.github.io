@@ -14,6 +14,9 @@ collections:
   product-categories:
     title: Product Categories
     output: true
+  product-families:
+    title: Product Families
+    output: true
   products:
     title: Products
     output: true
