@@ -6,6 +6,7 @@ tags:
 - Warehouse
 - Factory
 - BHBC
+product-number: BHBC
 family: BHBC
 hero_photo: "/uploads/DSC_6421.JPG"
 photos:
