@@ -22,3 +22,14 @@ div.product-category__caption.caption, div.product__caption.caption {
   }
 
 }
+
+.product__scrolling-image-scroller {
+
+  overflow-x: auto;
+  white-space: nowrap;
+
+  .product__scrolling-image-container {
+    width: 30rem;
+    display: inline-block
+  }
+}
