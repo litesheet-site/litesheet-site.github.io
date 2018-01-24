@@ -36,6 +36,11 @@ defaults:
     layout: product-category
 - scope:
     path: ''
+    type: product-families
+  values:
+    layout: product-category
+- scope:
+    path: ''
     type: products
   values:
     layout: product

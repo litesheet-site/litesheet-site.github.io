@@ -2,21 +2,87 @@
 layout: page
 ---
 
-<h1>Product Categories</h1>
+<!--description-->
+<div class="row">{{content}}</div>
 
-<div>{{content}}</div>
+<div class="row products__tabs">
 
-<div class="row">
+	<!--tabs-->
+	<ul class="nav nav-tabs" id="tabs" role="tablist">
 
-	{% for category in site.product-categories %}
-		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
-				<div class="caption product-category__caption">
-					<a href="{{ category.url | relative_url }}">
-						<h3 class="text-primary">{{ category.title | escape }}</h3>
-					</a>
-				</div>
+		<!--product categories-->
+		<li class="nav-item active">
+			<a class="nav-link"
+			   id="nav-tab-categories"
+			   data-toggle="tab"
+			   href="#tab-categories"
+			   role="tab"
+			   aria-controls="tab-categories"
+			   aria-selected="true">
+
+				Product Categories
+			</a>
+		</li>
+
+		<!--product families-->
+		<li class="nav-item">
+			<a class="nav-link"
+			   id="nav-tab-families"
+			   data-toggle="tab"
+			   href="#tab-families"
+			   role="tab"
+			   aria-controls="tab-families"
+			   aria-selected="false">
+
+				Product Families
+			</a>
+		</li>
+
+		<!--product numbers-->
+		<li class="nav-item">
+			<a class="nav-link"
+			   id="nav-tab-numbers"
+			   data-toggle="tab"
+			   href="#tab-numbers"
+			   role="tab"
+			   aria-controls="contact"
+			   aria-selected="false">
+
+				Product Numbers
+			</a>
+		</li>
+	</ul>
+
+	<!--content-->
+	<div class="tab-content container" id="tabs-content">
+
+		<!--product categories-->
+		<div class="tab-pane fade in active" id="tab-categories" role="tabpanel" aria-labelledby="nav-tab-categories">
+			<div class="row">
+
+				{% for item in site.product-categories %}
+
+					{% include products/product-category-nav-item.html %}
+				{% endfor %}
 			</div>
 		</div>
-	{% endfor %}
+
+		<!--product families-->
+		<div class="tab-pane fade" id="tab-families" role="tabpanel" aria-labelledby="nav-tab-families">
+			<div class="row">
+
+				{% for item in site.product-families %}
+
+					{% include products/product-category-nav-item.html %}
+				{% endfor %}
+			</div>
+		</div>
+
+		<!--product numbers-->
+		<div class="tab-pane fade" id="tab-numbers" role="tabpanel" aria-labelledby="nav-tab-numbers">
+
+			<h3>todo product numbers</h3>
+
+		</div>
+	</div>
 </div>
