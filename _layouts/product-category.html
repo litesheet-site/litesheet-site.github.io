@@ -10,13 +10,18 @@ layout: page
 
 	{% for product in matching-products %}
 		<div class="col-sm-6 col-md-4">
-			<div class="thumbnail">
+			<div class="thumbnail product-category__thumbnail">
 
 				<a href="{{ product.url | relative_url }}">
 
 					<!--image-->
 					{% if product.hero_photo %}
 						<img src="{{ product.hero_photo }}">
+						<div class="product-category__overlay">
+							<div class="product-category__overlay__cover">
+								{{ product.content }}
+							</div>
+						</div>
 					{% endif %}
 
 					<div class="caption product__caption">

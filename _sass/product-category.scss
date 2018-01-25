@@ -1,0 +1,32 @@
+@import "variables";
+
+.product-category__thumbnail {
+
+  &:hover .product-category__overlay {
+    opacity: 0.85;
+  }
+
+  .product-category__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    overflow: hidden;
+
+    .product-category__overlay__cover {
+      background-color: $gray-dark;
+      color: white;
+
+      height: 100%;
+      padding: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      margin-top: 0.5rem;
+    }
+  }
+}
