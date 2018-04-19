@@ -30,15 +30,15 @@ layout: page
 </div>
 
 <!--map-->
-{% for location in page.locations %}
+{% for agent in site.agents %}
 	<input type="hidden" data-location
-	       data-name="{{ location.name }}"
-	       data-latitude="{{ location.latitude }}"
-	       data-longitude="{{ location.longitude }}"
-	       data-email="{{ location.email }}"
-	       data-phone="{{ location.phone }}"
-	       data-state="{{ location.state }}"
-	       data-webaddress="{{ location.web-address }}"
+	       data-name="{{ agent.name }}"
+	       data-latitude="{{ agent.latitude }}"
+	       data-longitude="{{ agent.longitude }}"
+	       data-email="{{ agent.email }}"
+	       data-phone="{{ agent.phone }}"
+	       data-state="{{ agent.state }}"
+	       data-webaddress="{{ agent.web-address }}"
 	>
 {% endfor %}
 
