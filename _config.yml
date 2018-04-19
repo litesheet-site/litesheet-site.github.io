@@ -31,7 +31,7 @@ defaults:
     path: ''
     type: agents
   values:
-    email:
+    email: 
     phone: 
     web-address: 
     state: 
