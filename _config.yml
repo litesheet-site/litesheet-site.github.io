@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   agents:
     title: Agents
-    output: true
+    output: false
   companies:
     title: Companies
     output: true
