@@ -43,6 +43,10 @@ defaults:
     type: news
   values:
     layout: news-article
+    topstory: false
+    author:
+    location:
+    picture:
 - scope:
     path: ''
     type: product-categories
