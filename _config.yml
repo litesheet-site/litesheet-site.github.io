@@ -29,6 +29,17 @@ collections:
 defaults:
 - scope:
     path: ''
+    type: agents
+  values:
+    name:
+    email:
+    phone:
+    web-address:
+    state:
+    latitude:
+    longitude:
+- scope:
+    path: ''
     type: news
   values:
     layout: news-article
