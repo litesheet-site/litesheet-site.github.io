@@ -1,28 +1,6 @@
 ---
 title: Rep Finder
 permalink: "/rep-finder/"
-locations:
-- name: Kevin Smith
-  state: New York
-  latitude: 40.7128
-  longitude: -74.0059
-  email: kevin.smith@litesheet.com
-  phone: "(123) 456-7890"
-  web-address: http://www.litesheet.com/kevin
-- name: James Cameron
-  state: California
-  latitude: 34.0522
-  longitude: -118.2437
-  email: james.cameron@litesheet.com
-  phone: "(123) 456-7890"
-  web-address: http://www.litesheet.com
-- name: Jesse Carmichael
-  state: California
-  latitude: 33.0522
-  longitude: -117.2437
-  email: jesse.carmichael@litesheet.com
-  phone: "(949) 555-1818"
-  web-address: http://www.litesheet.com
 states:
 - Alabama
 - Alaska
