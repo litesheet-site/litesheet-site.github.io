@@ -44,9 +44,9 @@ defaults:
   values:
     layout: news-article
     topstory: false
-    author:
-    location:
-    picture:
+    author: 
+    location: 
+    picture: 
 - scope:
     path: ''
     type: product-categories
