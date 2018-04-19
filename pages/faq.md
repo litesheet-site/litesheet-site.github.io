@@ -1,7 +1,6 @@
 ---
 title: FAQ
 permalink: "/faq"
-layout: faq
 questions:
 - question: Will your LED troffer kit work with existing dimming systems? Off/on &
     0-10v?
@@ -32,5 +31,6 @@ questions:
     increase the light output if individual LED chips fail. The combination of the
     driverless engine and automatic compensation for lost components is Adaptive AC
     Direct.
+layout: faq
 ---
 
