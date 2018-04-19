@@ -5,5 +5,7 @@ name: Mr Example
 email: example@example.com
 phone: "(123) 456-7890"
 state: California
+latitude: 40.7128
+longitude: -74.0059
 ---
 
