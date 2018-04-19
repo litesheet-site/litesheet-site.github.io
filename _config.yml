@@ -31,13 +31,13 @@ defaults:
     path: ''
     type: agents
   values:
-    name:
-    email:
-    phone:
-    web-address:
-    state:
-    latitude:
-    longitude:
+    name: 
+    email: 
+    phone: 
+    web-address: 
+    state: 
+    latitude: 
+    longitude: 
 - scope:
     path: ''
     type: news
