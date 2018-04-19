@@ -2,6 +2,9 @@
 title: LiteSheet
 timezone: UTC
 collections:
+  agents:
+    title: Agents
+    output: true
   companies:
     title: Companies
     output: true
