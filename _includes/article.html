@@ -1,0 +1,32 @@
+<article>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<h1>{{ article.title }}</h1>
+				<small class="meta text-muted">Posted by {% if article.author %}{{ article.author }}{% else %}{{ site.title }}{% endif %} on {{ article.date | date: "%B %-d, %Y" }}</small>
+
+				{{ article.content }}
+
+				<hr>
+
+				{% if article-include-pager %}
+
+					<ul class="pager">
+						{% if article.previous.url %}
+						<li class="previous">
+							<a href="{{ article.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{article.previous.title}}">&larr; Previous Post</a>
+						</li>
+						{% endif %}
+						{% if article.next.url %}
+						<li class="next">
+							<a href="{{ article.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{article.next.title}}">Next Post &rarr;</a>
+						</li>
+						{% endif %}
+					</ul>
+				{% endif %}
+
+			</div>
+		</div>
+	</div>
+</article>
