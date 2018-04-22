@@ -4,6 +4,7 @@ title: |-
   LIGHTFAIR® International 2018 Booth 5045
 date: 2018-04-04 23:59:00 Z
 location: Forest, VA
+featured-on-homepage: true
 ---
 
 LED Lighting technology leader, LiteSheet Solutions demonstrates its “AC Advantage” at LIGHTFAIR® International Booth 5045. The company will showcase its patented “driverless” LED technology, its suite of DLC certified LED fixtures for indoor and outdoor lighting applications, and its patented dimming controls products.
