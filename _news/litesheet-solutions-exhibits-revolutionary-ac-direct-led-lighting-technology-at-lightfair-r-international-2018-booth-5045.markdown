@@ -3,6 +3,7 @@ title: |-
   LiteSheet Solutions Exhibits Revolutionary AC Direct LED Lighting Technology at
   LIGHTFAIR® International 2018 Booth 5045
 date: 2018-04-04 23:59:00 Z
+author: Jon A. Di Gesu
 location: Forest, VA
 featured-on-homepage: true
 ---
